@@ -1,0 +1,42 @@
+.section-header{
+    background-color: $general_bg_color;
+    height: 690px;
+    display: flex;
+    
+    .section-inner{
+        padding-top: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-grow: 1;
+    }
+
+    &_text{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 50%;
+
+        &_title{
+            font-size: 60pt;
+            font-weight: 700;
+            color: #000000;
+        }
+        
+        &_subtitle{
+            font-size: 16pt;
+            font-weight: 300;
+            color: #9a9898;
+        }
+        & .btn {
+            margin-bottom: 100px;;
+        }
+    }
+    &_video{
+        width: 550px;
+        height: 350px;
+        background-color: #c4c0b1;
+        box-shadow: -10px -10px 25px rgba(0, 0, 0, .2);
+    }
+}
