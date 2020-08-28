@@ -1,5 +1,5 @@
 body{
-    font-family: 'Nunito', sans-serif;
+    font-family: 'OpenSans', sans-serif;
     height: 10000px;
 }
 
@@ -14,14 +14,14 @@ a:active{
 
 
 .section-inner {
-    max-width: 1250px;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
 .btn{
     width: 180px;
     height: 55px;
-    background-color: none;
+    background-color: rgba(0,0,0,0);
     border: 2px solid $secondary_color;
     border-radius: 10px;
     outline: none;
@@ -40,9 +40,8 @@ a:active{
 }
 
 .text-title{
-    text-align: center;
-    font-size: 30pt;
-    padding-bottom: 40px;
+    font-size: 42pt;
+    padding-bottom: 80px;
     font-weight: 600;
     color: $primary_text_color;
 
@@ -50,8 +49,7 @@ a:active{
 
 .text-subtitle{ 
     font-size: 16pt;
-    max-width: 630px; 
-    text-align: center; 
-    padding-bottom: 40px;
+    max-width: 630px;  
+    padding-bottom: 80px;
     color: $secondary_text_color;  
 }

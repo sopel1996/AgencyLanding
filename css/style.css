@@ -338,7 +338,7 @@ template {
 }
 
 body {
-  font-family: "Nunito", sans-serif;
+  font-family: "OpenSans", sans-serif;
   height: 10000px;
 }
 
@@ -352,14 +352,14 @@ a:active {
 }
 
 .section-inner {
-  max-width: 1250px;
+  max-width: 1400px;
   margin: 0 auto;
 }
 
 .btn {
   width: 180px;
   height: 55px;
-  background-color: none;
+  background-color: rgba(0, 0, 0, 0);
   border: 2px solid #ff3f40;
   border-radius: 10px;
   outline: none;
@@ -377,9 +377,8 @@ a:active {
 }
 
 .text-title {
-  text-align: center;
-  font-size: 30pt;
-  padding-bottom: 40px;
+  font-size: 42pt;
+  padding-bottom: 80px;
   font-weight: 600;
   color: #333333;
 }
@@ -387,8 +386,7 @@ a:active {
 .text-subtitle {
   font-size: 16pt;
   max-width: 630px;
-  text-align: center;
-  padding-bottom: 40px;
+  padding-bottom: 80px;
   color: #333333;
 }
 
@@ -430,7 +428,7 @@ a:active {
   display: flex;
 }
 .section-header .section-inner {
-  padding-top: 100px;
+  padding-top: 150px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -461,6 +459,62 @@ a:active {
   height: 350px;
   background-color: #c4c0b1;
   box-shadow: -10px -10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.section-about-us {
+  height: 900px;
+  display: flex;
+}
+.section-about-us .section-inner {
+  margin: 100px auto;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid #ececec;
+}
+.section-about-us_text {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-right: 50px;
+}
+.section-about-us_skills {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.section-about-us_skills_item {
+  width: 200px;
+  height: 200px;
+  flex-basis: 250px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.section-about-us_skills_item:nth-child(2n+2) {
+  flex-grow: 1;
+}
+.section-about-us_skills_item_icon {
+  margin-bottom: 20px;
+}
+.section-about-us_skills_item_title {
+  font-size: 24pt;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #4c4c4c;
+}
+.section-about-us_skills_item_subtitle {
+  font-size: 16pt;
+  margin-bottom: 20px;
+  color: #4c4c4c;
 }
 
 /*# sourceMappingURL=style.css.map */
