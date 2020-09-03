@@ -339,7 +339,6 @@ template {
 
 body {
   font-family: "OpenSans", sans-serif;
-  height: 10000px;
 }
 
 a {
@@ -515,6 +514,28 @@ a:active {
   font-size: 16pt;
   margin-bottom: 20px;
   color: #4c4c4c;
+}
+
+.section-footer {
+  background-color: #2d2d2d;
+  color: #e0e0e0;
+  font-size: 16pt;
+  font-weight: 300;
+}
+.section-footer .section-inner {
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.section-footer_copyright {
+  flex-grow: 15;
+}
+.section-footer_social {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
 }
 
 /*# sourceMappingURL=style.css.map */
