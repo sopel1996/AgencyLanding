@@ -3,6 +3,7 @@
     color: $btn_text_color;
     font-size: 16pt;
     font-weight: 300;
+    
     .section-inner{
         height: 100px;
         display: flex;
@@ -10,13 +11,14 @@
         justify-content: center;
         align-items: center;
     }
+
     &_copyright{
         flex-grow: 15;
     }
+
     &_social{
         flex-grow: 1;
         display: flex;
         justify-content: space-between;
-
     }
 }

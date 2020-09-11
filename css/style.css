@@ -384,7 +384,6 @@ a:active {
 
 .text-subtitle {
   font-size: 16pt;
-  max-width: 630px;
   padding-bottom: 80px;
   color: #333333;
 }
@@ -481,6 +480,9 @@ a:active {
   align-items: flex-start;
   padding-right: 50px;
 }
+.section-about-us_text .text-subtitle {
+  max-width: 630px;
+}
 .section-about-us_skills {
   height: 100%;
   display: flex;
@@ -514,6 +516,99 @@ a:active {
   font-size: 16pt;
   margin-bottom: 20px;
   color: #4c4c4c;
+}
+
+.section-form {
+  padding-top: 100px;
+  padding-bottom: 110px;
+}
+.section-form .section-inner {
+  height: 770px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.section-form .input_filed {
+  background-color: #e5e5e5;
+  border: 1px solid #e5e5e5;
+  margin: 0;
+  outline: none;
+  border-radius: 7px;
+  text-indent: 20px;
+  color: #333333;
+}
+.section-form_general {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.section-form_general .text-subtitle {
+  max-width: 800px;
+}
+.section-form_general_form {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.section-form_general_form_first_string {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.section-form_general_form input:not([type=submit]) {
+  display: inline-block;
+  width: 45%;
+  font-size: 15pt;
+  line-height: 40pt;
+}
+.section-form_general_form input[type=submit] {
+  width: 100%;
+}
+.section-form_general_form textarea {
+  width: 100%;
+  resize: none;
+  font-size: 15pt;
+  line-height: 26pt;
+}
+.section-form_contact {
+  background-color: #2d2d2d;
+  padding-left: 85px;
+  align-self: flex-end;
+  height: 475px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+.section-form_contact_title {
+  font-size: 18pt;
+  font-weight: 700;
+  line-height: 34pt;
+  color: #d5d5d5;
+  margin-top: 80px;
+}
+.section-form_contact_subtitle {
+  flex-grow: 0.2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 16pt;
+  font-weight: 300;
+  line-height: 28pt;
+  width: 70%;
+  color: #d5d5d5;
+  margin-bottom: 80px;
+}
+.section-form_contact_subtitle a {
+  display: block;
+}
+.section-form_contact_subtitle a, .section-form_contact_subtitle a:hover, .section-form_contact_subtitle a:active {
+  color: #d5d5d5;
 }
 
 .section-footer {
