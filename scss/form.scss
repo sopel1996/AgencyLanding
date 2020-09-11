@@ -16,6 +16,11 @@
         border-radius: 7px;
         text-indent: 20px;
         color: $primary_text_color;
+
+        &:focus{
+            border: 1px solid $secondary_color;
+
+        }
     }
 
     &_general{
@@ -26,7 +31,16 @@
 
         // width: 60%;
         .text-subtitle{ 
+            position: relative;
             max-width: 800px;
+        }
+        .text-subtitle:after{ 
+            display: block;
+            margin-top: 40px;
+            position: absolute;
+            width: 20%;
+            content:"";
+            border: 1px solid $secondary_color;
         }
 
         &_form{
@@ -36,6 +50,7 @@
             align-items: center;
             justify-content: space-between;
             width: 100%;
+
             &_first_string{
                 width: 100%;
                 display: flex;
@@ -51,6 +66,10 @@
             }
             input[type=submit]{
                 width: 100%;
+                font-weight: 700;
+                &:hover{
+                    color: $btn_text_color;
+                }
             }
             textarea{
                 width: 100%;
@@ -68,7 +87,7 @@
         // padding-top: 145px;
         // padding-bottom: 145px;
         align-self: flex-end;
-        height: 475px;
+        height: 473px;
         // width: 500px;
         // width: 50%;
         // position:relative;

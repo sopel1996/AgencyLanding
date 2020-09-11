@@ -537,6 +537,9 @@ a:active {
   text-indent: 20px;
   color: #333333;
 }
+.section-form .input_filed:focus {
+  border: 1px solid #ff3f40;
+}
 .section-form_general {
   display: flex;
   flex-direction: column;
@@ -544,7 +547,16 @@ a:active {
   justify-content: space-between;
 }
 .section-form_general .text-subtitle {
+  position: relative;
   max-width: 800px;
+}
+.section-form_general .text-subtitle:after {
+  display: block;
+  margin-top: 40px;
+  position: absolute;
+  width: 20%;
+  content: "";
+  border: 1px solid #ff3f40;
 }
 .section-form_general_form {
   flex-grow: 1;
@@ -568,6 +580,10 @@ a:active {
 }
 .section-form_general_form input[type=submit] {
   width: 100%;
+  font-weight: 700;
+}
+.section-form_general_form input[type=submit]:hover {
+  color: #e0e0e0;
 }
 .section-form_general_form textarea {
   width: 100%;
@@ -579,7 +595,7 @@ a:active {
   background-color: #2d2d2d;
   padding-left: 85px;
   align-self: flex-end;
-  height: 475px;
+  height: 473px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
