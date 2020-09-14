@@ -80,13 +80,15 @@
                     content:"NAME";
                     position: absolute;
                     display: inline-block;
-                    bottom: 0;
-                    background-color: rgba(0, 0, 0, 0.3);
+                    // top: 214px;
+                    bottom:0;
+                    background-color: rgba(0, 0, 0, 0.2);
                     height: 30px;
                     width: 100%;
                     line-height: 20px;
                     text-align: center;
                     vertical-align: middle;
+                    // transform: translateY(-40px);
                 }
             }
         }
