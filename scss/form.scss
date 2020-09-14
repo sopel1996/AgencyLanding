@@ -34,7 +34,7 @@
             position: relative;
             max-width: 800px;
         }
-        .text-subtitle:after{ 
+        .text-subtitle::after{ 
             display: block;
             margin-top: 40px;
             position: absolute;

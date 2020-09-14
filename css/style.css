@@ -420,7 +420,7 @@ a:active {
   justify-content: center;
   transition: 0.3s;
 }
-.section-nav a:visited, .section-nav a:active, .section-nav a:link {
+.section-nav a:visited, .section-nav a:active {
   color: #e0e0e0;
 }
 .section-nav a:hover {
@@ -525,8 +525,95 @@ a:active {
   color: #4c4c4c;
 }
 
+.section-team {
+  height: 710px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.section-team .section-inner {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+.section-team .__pad {
+  padding-bottom: 20px;
+}
+.section-team .__size {
+  max-width: 450px;
+  margin-left: 15px;
+}
+.section-team .text-subtitle::after {
+  display: block;
+  margin-top: 20px;
+  position: absolute;
+  width: 5%;
+  content: "";
+  border: 1px solid #ff3f40;
+}
+.section-team_main_img {
+  width: 320px;
+  height: 460px;
+  background-color: red;
+  float: left;
+  margin-right: 80px;
+}
+.section-team_description {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.section-team_description .__size_pad {
+  font-size: 25pt;
+  padding-bottom: 0;
+}
+.section-team_description .__subtitle_width {
+  font-size: 14pt;
+  width: 70%;
+  padding-bottom: 0;
+}
+.section-team_description_position {
+  width: 70%;
+}
+.section-team_description_social a {
+  margin-right: 30px;
+  text-decoration: none;
+  color: #333333;
+}
+.section-team_description_social a:visited, .section-team_description_social a:active {
+  color: #333333;
+}
+.section-team_list {
+  display: flex;
+  justify-content: space-between;
+  height: 220px;
+}
+.section-team_list .img {
+  width: 197px;
+  height: 214px;
+  background-color: #f6f2f2;
+}
+.section-team_list .img:hover {
+  position: relative;
+}
+.section-team_list .img:hover::after {
+  padding-top: 10px;
+  content: "NAME";
+  position: absolute;
+  display: inline-block;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 30px;
+  width: 100%;
+  line-height: 20px;
+  text-align: center;
+  vertical-align: middle;
+}
+
 .section-subscribe {
-  height: 515px;
+  height: 235px;
   padding-top: 140px;
   padding-bottom: 140px;
   background: #f5f0dd;
@@ -556,10 +643,10 @@ a:active {
 .section-subscribe_form_email:focus {
   border: 1px solid #ff3f40;
 }
-.section-subscribe_form ._font {
+.section-subscribe_form .__font {
   font-weight: 700;
 }
-.section-subscribe_form ._font:hover {
+.section-subscribe_form .__font:hover {
   color: #e0e0e0;
 }
 
@@ -595,7 +682,7 @@ a:active {
   position: relative;
   max-width: 800px;
 }
-.section-form_general .text-subtitle:after {
+.section-form_general .text-subtitle::after {
   display: block;
   margin-top: 40px;
   position: absolute;

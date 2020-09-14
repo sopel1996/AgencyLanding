@@ -31,8 +31,7 @@
         justify-content: center;
         transition: .3s;
         &:visited,
-        &:active,
-        &:link{
+        &:active{
             color: $btn_text_color;
         }
         &:hover{

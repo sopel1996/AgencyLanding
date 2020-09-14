@@ -1,0 +1,94 @@
+.section-team{
+    height:710px;
+    padding-top:120px;
+    padding-bottom:120px;
+    .section-inner{
+        height:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-start;
+    }
+    .text-title{}
+    .__pad{
+        padding-bottom:20px;
+    }
+    .__size{
+       max-width:450px;
+       margin-left:15px;
+    }
+    .text-subtitle::after{ 
+        display: block;
+        margin-top: 20px;
+        position: absolute;
+        width: 5%;
+        content:"";
+        border: 1px solid $secondary_color;
+    }
+    &_main_img{
+        width: 320px;
+        height: 460px;
+        background-color: red;
+        float: left;
+        margin-right: 80px;
+    }
+    &_description{
+
+        height:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .__size_pad{
+            font-size: 25pt;
+            padding-bottom: 0;
+        }
+        .__subtitle_width{
+            font-size:14pt;
+            width:70%;
+            padding-bottom: 0;
+        }
+        &_position{
+            width: 70%;
+        }
+        &_social{
+
+            a {
+                margin-right: 30px;
+                text-decoration: none;
+                color: $primary_text_color;
+                &:visited,
+                &:active{
+                    color: $primary_text_color;
+                } 
+            }
+        }
+    }
+     
+    &_list{
+        display: flex;
+        justify-content: space-between;
+        height: 220px;
+        .img{
+            width:197px;
+            height:214px;
+            background-color: $general_bg_color;
+            &:hover{
+                position: relative;
+                &::after{
+                    padding-top:10px;
+                    content:"NAME";
+                    position: absolute;
+                    display: inline-block;
+                    bottom: 0;
+                    background-color: rgba(0, 0, 0, 0.3);
+                    height: 30px;
+                    width: 100%;
+                    line-height: 20px;
+                    text-align: center;
+                    vertical-align: middle;
+                }
+            }
+        }
+    }
+}
