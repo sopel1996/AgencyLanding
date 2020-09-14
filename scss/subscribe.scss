@@ -1,0 +1,35 @@
+.section-subscribe{
+    height:515px;
+    padding-top: 140px;
+    padding-bottom: 140px;
+    background: $substrate;
+    .section-inner{
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .__white_padding{
+        padding-bottom: 55px;
+        color: $third_text_color;
+    }//модификаторы цвета надо
+    .text-subtitle{}//модификаторы цвета надо
+    &_form{
+        &_email{
+            background-color: #ffffff;
+            border: 1px solid #ffffff; 
+            height: 55px;
+            width: 525px;
+            outline: none;
+            border-radius: 7px;
+            text-indent: 20px;
+            color: $primary_text_color;
+            margin-right: 25px;
+            &:focus{
+                border: 1px solid $secondary_color;
+
+        }
+        }
+    }
+}
