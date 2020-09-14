@@ -638,13 +638,15 @@ a:active {
 }
 .section-form_contact {
   background-color: #2d2d2d;
-  padding-left: 85px;
   align-self: flex-end;
   height: 473px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: flex-start;
+}
+.section-form_contact_content {
+  margin-left: 35px;
 }
 .section-form_contact_title {
   font-size: 18pt;
@@ -661,7 +663,7 @@ a:active {
   font-size: 16pt;
   font-weight: 300;
   line-height: 28pt;
-  width: 70%;
+  width: 80%;
   color: #d5d5d5;
   margin-bottom: 80px;
 }
@@ -670,6 +672,39 @@ a:active {
 }
 .section-form_contact_subtitle a, .section-form_contact_subtitle a:hover, .section-form_contact_subtitle a:active {
   color: #d5d5d5;
+}
+.section-form_contact_address {
+  font-style: normal;
+}
+.section-form_contact_address::before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  width: 25px;
+  height: 25px;
+  background-color: red;
+}
+.section-form_contact_email {
+  vertical-align: middle;
+}
+.section-form_contact_email::before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  width: 25px;
+  height: 25px;
+  background: red url("") no-repeat 50% 50%;
+}
+.section-form_contact_phone::before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  width: 25px;
+  height: 25px;
+  background: red url("") no-repeat 50% 50%;
 }
 
 .section-footer {
