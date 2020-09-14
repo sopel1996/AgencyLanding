@@ -30,5 +30,11 @@
 
         }
         }
+        ._font{
+            font-weight: 700;
+            &:hover{
+                color: $btn_text_color;
+            }
+        }
     }
 }

@@ -362,6 +362,7 @@ a:active {
   border: 2px solid #ff3f40;
   border-radius: 10px;
   outline: none;
+  transition: 0.3s;
 }
 .btn a {
   font-size: 12pt;
@@ -417,6 +418,7 @@ a:active {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  transition: 0.3s;
 }
 .section-nav a:visited, .section-nav a:active, .section-nav a:link {
   color: #e0e0e0;
@@ -553,6 +555,12 @@ a:active {
 }
 .section-subscribe_form_email:focus {
   border: 1px solid #ff3f40;
+}
+.section-subscribe_form ._font {
+  font-weight: 700;
+}
+.section-subscribe_form ._font:hover {
+  color: #e0e0e0;
 }
 
 .section-form {

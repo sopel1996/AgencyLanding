@@ -25,6 +25,7 @@ a:active{
     border: 2px solid $secondary_color;
     border-radius: 10px;
     outline: none;
+    transition: .3s;
     & a{
         font-size: 12pt;
         font-weight: 700;
